@@ -14,17 +14,17 @@ const blogIndex = ({data}) => (
 
 export default blogIndex
 
-export const pageQuery = graphql`
-    query AllBlogPosts{
-        markdownRemark(limit: 10){
-            edges{
-              node {
-                frontmatter {
-                  path
-                  title
-                }
-              }
-            } 
-        }
-    }
-`
+// export const pageQuery = graphql`
+//     query AllBlogPosts{
+//         markdownRemark(limit: 10){
+//             edges{
+//               node {
+//                 frontmatter {
+//                   path
+//                   title
+//                 }
+//               }
+//             } 
+//         }
+//     }
+// `
